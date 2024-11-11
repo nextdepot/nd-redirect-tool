@@ -1,0 +1,59 @@
+# Node and npm (if you use Node.js tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Python (if you use Python tools)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Logs and temp files
+*.log
+*.out
+*.err
+*.pid
+*.seed
+*.cover
+*.swp
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables file
+.env
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+docker-compose.override.yaml
+.docker/
+docker-compose.*.log
+
+# Nginx cache and temporary files
+nginx/cache/
+nginx/temp/
+
+# Build and generated files
+*.bak
+*.old
+*.swp
+build/
+dist/
+coverage/
