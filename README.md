@@ -8,17 +8,6 @@ A lightweight web service using **Nginx** and **Docker** that performs URL-based
 - Configurable error redirect URL via environment variables.
 - Simple and portable setup using Docker.
 
-## Prerequisites
-
-- Docker installed (Docker Engine and Docker Compose).
-
-## Project Structure
-
-nd-redirect-tool/  
-├── nginx.conf           `# Nginx configuration file`  
-├── Dockerfile           `# Dockerfile for building the image`  
-└── README.md            `# Project documentation`  
-
 ## Configuration
 
 ### Environment Variables
