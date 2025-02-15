@@ -6,6 +6,9 @@ on:
     inputs:
       tags:
         description: "Comment"
+  push:
+    branches:
+      - master
 
 jobs:
   docker_publish:
